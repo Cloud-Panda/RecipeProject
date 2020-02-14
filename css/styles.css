@@ -1,0 +1,28 @@
+.my-nav{ 
+    position:fixed;
+    width:100%;
+    z-index: 92;
+    min-height:10vh;
+}
+
+.nav-color{
+    
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+.navbar-brand{
+    color:White;
+    Font-size:50px;
+    text-transform:uppercase;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.list{
+    text-align:center;
+}
+
+.nav-color li a{
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    font-size:20px;
+}
