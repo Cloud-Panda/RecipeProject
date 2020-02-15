@@ -6,8 +6,8 @@
 }
 
 .nav-color{
-    
-    background-color: rgba(0, 0, 0,0.5);
+    opacity:0.8;
+    background-color: rgba(0, 0, 0,0);
 }
 
 .navbar-brand{
@@ -26,3 +26,89 @@
     font-family: 'Dosis', sans-serif;
     font-size:20px;
 }
+
+#hero{
+    background-image: url("../images/pasta7.jpg");
+    background-position: center; 
+    background-size: cover; 
+    height:100vh;
+    width:100%;
+    position: relative;
+    color:white;
+    display:flex;
+    display:flex;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#hero-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    
+} 
+
+#title {
+   z-index:1;
+   margin:0;
+   padding:0;
+   text-align:center;
+}
+
+.container{
+    position:relative;
+    width: 100%;
+    height: 100px;
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+
+.cook-info{
+    background-color:black;  
+}
+
+.cook-info ul{
+    list-style-type: none;
+    text-align:center;
+    padding:0;
+    margin-bottom:0;
+}
+
+.cook-info ul li{
+    color:white;
+    display: inline-block;
+    font-size:20px;
+    margin:0;
+    padding:20px 20px 20px 20px;
+}
+
+#pasta{
+    margin-top: 0;
+    padding-top:0;
+    display:inline-block;
+    width:40%;
+    float:right;
+
+}
+
+#about{
+    text-align: center;
+    padding-top:50px;
+}
+
+p{
+    padding-left:50px;
+    width:50%;
+}
+   
+
+
+
+
+
