@@ -70,7 +70,7 @@
 }
 
 .cook-info{
-    background-color:black;  
+    background-color:rgb(24, 23, 23);  
 }
 
 .cook-info ul{
@@ -91,21 +91,60 @@
 #pasta{
     margin-top: 0;
     padding-top:0;
-    display:inline-block;
-    width:40%;
+    width:50%;
     float:right;
 
 }
 
 #about{
-    text-align: center;
+    text-align:center;
     padding-top:50px;
+    
 }
 
 p{
-    padding-left:50px;
+    padding-left:40px;
     width:50%;
+    padding-bottom:15%;
+    padding-right:50px;
 }
+
+#ingrdients{
+    margin-left:50px;
+    float:left;
+    background-color:rgb(167, 223, 65);
+    width:20%;
+    
+
+}
+
+#method{
+    margin-left:50px;
+    margin-right:0;
+    padding-right:0;;
+    background-color:rgb(235, 229, 208);
+    width:72.5%;
+    align-content: center;
+    display:inline-block;
+    
+}
+
+body{
+    background-color: rgb(235, 229, 208);
+    color:rgb(26, 25, 25);
+}
+
+#methods{
+    padding-left:25%;
+    text-align:center;
+}
+
+ol{
+    margin-left:75px;
+    padding-left:25%;
+}
+
+
    
 
 
