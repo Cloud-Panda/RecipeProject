@@ -9,23 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <!--my css file linked-->
-    <link  rel="stylesheet" type="text/css" href="css/styles.css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 
   <body>
     <header>
         <!--Bootstrap navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark  nav-color my-nav">
-          <a class="navbar-brand" href="#">Pasta Bar</a>
+          <h6 class="nav-logo-pasta">Pasta<span id="nav-logo">Bar</span></h6>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -51,7 +50,10 @@
           </div>
         </nav>
       </header>
-
+      
+     
+     <!--page wrapper-->
+     <div class="page-wrapper">
       <!--Hero image cover-->
       <section>
         <div id="hero">
@@ -78,7 +80,7 @@
         <div class="slanted">
         <img src="images/pasta9.jpg" id="pasta">
         <h1 id="about">About</h1>
-        <p>Spaghetti Carbonara is an Italian Pasta dish from Rome  originally
+        <p id="about-p">Spaghetti Carbonara is an Italian Pasta dish from Rome  originally
           made with egg, hard cheese, pork and black pepper.
           This delicious meal is served in reastruanrnts and is very much a fine-dining 
           dish and can be quite pricey, but before you are too dissappointed 
@@ -88,11 +90,11 @@
           ready for those special dinner dates with your partenr or yourself. 
         </p>
         </div>
-       
+      
         <h1 id="recipe">Recipe</h1>
 
       </article>
-
+      <!--recipe and ingrdients section-->
         <div id="ingrdients">
         <h1 id="ingrdients-head">Ingridients</h1>
         <ul>
@@ -141,9 +143,9 @@
 
           </ol>
         </div>
-        
-        <h5>Nutrition</h5>
+
         <!--Nutrition table-->
+        <h5>Nutrition</h5>
         <table class="table table-striped table-inverse table-responsive nutrition-table">
           <thead class="thead-inverse">
             <tr>
@@ -176,12 +178,40 @@
                 <td>5g</td>
                 <td>15g</td>
               </tr>
-              
             </tbody>
         </table>
-
     </section>
+    <footer>
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section aboutsection">
+          <h1>About us</h1>
+          <p>Pasta Bar was created in 2020 for your pasta needs.<br> Our team and partners
+            have noticed that the world needs more pasta lovers.Our team never gives up on looking for the 
+            best pasta recipes out there. We taste and test these recipes for ourselves
+            in order to make sure that you as our subscribers get the best pasta recipes the 
+            world has to offer. For any inquiries please do not hesitate to contact us. 
+           </p>
+        </div>
+        <div class="footer-section message">
+          <h1>Contact Us</h1>
+          <p>Email: Pastabar@gmail.com</p>
+          <p>Tel: 555-712-3817</p>
+          <p>Check out our socials above</p>
+      </div>
+      <div class="footer-section top">
+        <img src="./images/arrow1.png">
+        <button id="btn">Back to Top</button>
+      </div>
+      <div class="footer-bottom">
+        &copy;  Code Space | Designed by Abigail.L
+      </div>
+    </div>
+  </footer>
 
   </body>
 
 </html>
+
+
