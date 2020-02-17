@@ -12,19 +12,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <!--my css file linked-->
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link  rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    
   </head>
 
-  <body>
+  <body id="top">
     <header>
+
         <!--Bootstrap navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark  nav-color my-nav">
-          <h6 class="nav-logo-pasta">Pasta<span id="nav-logo">Bar</span></h6>
+          <h6 class="nav-logo-pasta">PastaBar</span></h6>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,32 +32,33 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Recipe</a>
+                <a class="nav-link" href="#ingrdients">Recipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" >Nutrition</a>
+                <a class="nav-link" href="#nutrition" >Nutrition</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" >Tips</a>
+                <a class="nav-link" href="#gallery" >Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" >Gallery</a>
+                <a class="nav-link" href="#socials" >Socials</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
       
-     
      <!--page wrapper-->
      <div class="page-wrapper">
+
       <!--Hero image cover-->
       <section>
         <div id="hero">
-          <h1 id="title">Spaghetti Carbonara</h1>
+          <h1 id="title">Spaghetti Carbonara</h1><br>
+          <h2>Life tastes better with pasta</h2>
           <div id="hero-overlay"></div>
         </div>
       </section>
@@ -66,10 +67,10 @@
       <section>
         <div class="cook-info">
           <ul>
-            <li>Prep time <br> 15min</li><vl/>
-            <li>Cook time <br> 15min</li><vl/>
-            <li>prepared in <br> 30min </li><vl/>
-            <li>Difficulty <br> Easy</li>
+            <li><img src="./images/timer-icon3.png" alt="orange timer icon" title="#" id="prep-icons"><br>Prep time <br> 15min</li><vl/>
+            <li><img src="./images/hour-icon1.png" alt="orange hour glass icon" title="#" id="prep-icons"><br>Cook time <br> 15min</li><vl/>
+            <li><img src="./images/fork-icon2.png" alt="orange fork icon" title="#" id="prep-icons"><br>prepared in <br> 30min </li><vl/>
+            <li><img src="./images/percent-icon.png" alt="orange percentage sign" title="" id="prep-icons"><br>Difficulty <br> Easy</li>
           </ul>
         </div>
     </section>
@@ -89,19 +90,16 @@
             just follow this recipe you will have a quick fine-dining dish infront of you 
             ready for those special dinner dates with your partenr or yourself. 
           </p>
-          <!-- <img src="images/pasta9.jpg" id="pasta"> -->
-        <!-- </div> -->
-      
         
       </article>
       <!--recipe and ingrdients section-->
+
       <section class="recipe-section">
-
-        <!-- <h1 id="recipe">Recipe</h1> -->
+        
         <div class="ingredients-method">
-
+          <!--Ingrdients-->
           <div id="ingrdients">
-          <h1 id="ingrdients-head">Ingridients</h1>
+          <h1 id="ingrdients-head"><u>Ingridients</u></h1>
           <ul>
             <li>225g spaghetti</li>
             <li>125g bacon</li>
@@ -110,24 +108,24 @@
             <li>125g cheese of your own liking</li>
             <li>1 red onion</li>
             <li>2 Tbsp Olive oil</li>
-            <h4>Spice</h4>
+            <h4><u>Spice</u></h4>
             <li>Salt</li>
             <li>pepper</li>
             <li>garlic powder</li>
-            <h4>Dairy</h4>
+            <h4><u>Dairy</u></h4>
             <li>1 whole egg</li>
             <li>1 egg yolk</li>
             <li>1/4 stick butter</li>
-            <h4>Garnish</h4>
+            <h4><u>Garnish</u></h4>
             <li>1/2 bunch paresely</li>
             <li>hand full spinach</li>
             <li>half cut cherry tomatoes for decoration</li>
           </ul>
           </div>
-  
+          <!--methods-->
           <div id="method">
   
-            <h1 id="methods">Method</h1>
+            <h1 id="methods"><u>Method</u></h1>
             <ol class="method-list">
   
               <h3>Preping</h3>
@@ -151,6 +149,7 @@
         </div>
 
         <!--Nutrition table-->
+        <div id="nutrition"></div>
         <div class="nutrition-container">
 
           <h5>Nutrition</h5>
@@ -190,31 +189,39 @@
           </table>
         </div>
       </section>
+
+      <!--Gallery-->
+      <div id="gallery"></div>
     <div class="gallery">
       <div class="slanted gallery-slanted"></div>
       <h1 class="gallery-title">
         Gallery
+        <img src="./images/gallery-icon.png" alt="orange camera icon" title="@Zoe's dish" id="gallery-camera">
       </h1>
       <div class="gallery-container">
         <div class="image-container">
           <div class="image-hover"></div>
-          <img src="./images/pasta9.jpg" class="gallery-image">
+          <img src="./images/gallery1.jpg" alt="Spaghetti Carbonara" title="@Keyuri's dish" class="gallery-image">
         </div>
         <div class="image-container">
           <div class="image-hover"></div>
-          <img src="./images/pasta9.jpg" class="gallery-image">
+          <img src="./images/gallery2.jpg" alt="Spaghetti Carbonara" title="@Monique's dish" class="gallery-image">
         </div>
         <div class="image-container">
           <div class="image-hover"></div>
-          <img src="./images/pasta9.jpg" class="gallery-image">
+          <img src="./images/gallery3.jpg" alt="Spaghetti Carbonara" title="@Recce's dish" class="gallery-image">
         </div>
         <div class="image-container">
           <div class="image-hover"></div>
-          <img src="./images/pasta9.jpg" class="gallery-image">
+          <img src="./images/gallery4.jpeg" alt="Spaghetti Carbonara" title="@Chelsea's dish" class="gallery-image">
         </div>
         <div class="image-container">
           <div class="image-hover"></div>
-          <img src="./images/pasta9.jpg" class="gallery-image">
+          <img src="./images/gallery5.jpg" alt="Spaghetti Carbonara" title="S@Leo's dish" class="gallery-image">
+        </div>
+        <div class="image-container">
+          <div class="image-hover"></div>
+          <img src="./images/gallery6.jpg" alt="Spaghetti Carbonara" title="@Le-Roy's" class="gallery-image">
         </div>
       </div>
     </div>
@@ -226,10 +233,10 @@
         <p>Be sure to check us out on our social media You wont regret.<br>
           Have a pasta day </p>
           <ul id="social-list">
-      <li><img src="./images/mail.png" id="social-item"></li>
-      <li><img src="./images/facebook.png" id="social-item"></li>
-      <li><img src="./images/instagram.png" id="social-item"></li>
-      <li><img src="./images/twitter.png" id="social-item"></li>
+      <li><a href="#"><img src="./images/mail.png" alt="email icon" title="#"id="social-item"></a></li>
+      <li><a href="#"><img src="./images/facebook.png" alt="facebook icon" title="#" id="social-item"></a></li>
+      <li><a href="#"><img src="./images/instagram.png" alt="instagram icon" title="#" id="social-item"></a></li>
+      <li><a href="#"><img src="./images/twitter.png" alt="tiwtter icon" title="#" id="social-item"></a></li>
       </ul>
     
     </div>
@@ -255,8 +262,8 @@
           <p>Check out our socials above</p>
       </div>
       <div class="footer-section top">
-        <img src="./images/arrow1.png">
-        <button id="btn">Back to Top</button>
+        <a href="#top"><img src="./images/arrow1.png" alt="arrow to the top" title="back to top"></a>
+        <p>Back to Top</p>
       </div>
       <div class="footer-bottom">
         &copy;  Code Space | Designed by Abigail.L
@@ -264,7 +271,11 @@
     </div>
   </footer>
 
-  </body>
+  <!--Bootstrap Javascript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+</body>
 
 </html>
 
