@@ -5,6 +5,16 @@
     background-color: black;
 }
 
+#span-bar{
+    color:white;
+}
+
+#slogan{
+    z-index:1;
+    color:orange;
+
+}
+
 .nav-logo-pasta{
     color:orange;
     font-weight: 200;
@@ -101,7 +111,7 @@
 
 .about-container {
     position: relative;
-    background:rgb(226, 222, 214);
+    background:#eae9e5;
     z-index: 2;
 }
 
@@ -136,8 +146,17 @@
     /* margin-left:50px; */
     /* float:left; */
     padding: 30px;
-    background-color:rgb(209, 201, 197);
+    background-color:#eae9e5;
     /* width:20%; */
+}
+
+#ingrdients ul{
+    padding-top:20px;
+}
+
+h4{
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 #method{
@@ -188,7 +207,7 @@ ol{
     left: 0;
     width:100%;
     height:200px;
-    background:rgb(226, 222, 214);  
+    background: #eae9e5 ;  
     z-index:-1;
 }
 
@@ -216,7 +235,7 @@ h3{
     /* padding-left:55px; */
     width: fit-content;
     margin: 0 auto;
-    background-color:rgb(187, 187, 185);
+    background-color:#eae9e5;
     align-content:center;
     color:rgb(3, 3, 3);
     text-align:center;
@@ -261,6 +280,7 @@ h5{
 .footer .footer-content .footer-section p{
     padding-top:10px;
     padding-bottom:0;
+    font-size:15px;
 }
 
 .footer .footer-content .footer-section img{
@@ -277,13 +297,14 @@ h5{
 .footer .footer-bottom{
     background-color: rgb(24, 23, 23);
     color:white;
-    height:50px;
+    height:40px;
     text-align:center;
     position: absolute;
     bottom:0px;
     left:0px;
     width:100%;
     font-size:13px;
+    padding:0;
 }
 
 .gallery {
@@ -334,7 +355,7 @@ h5{
     position: absolute;
     top: -10%;
     left: 0;
-    color: rgb(255, 255, 255);
+    color: #eae9e5;
     font-size: 3em;
     margin-bottom: 20px;
     padding: 0 40px;
@@ -372,7 +393,7 @@ h5{
 .social-media{
     margin-bottom:0;
     width:100%;
-    background-color:rgb(226, 224, 214);
+    background-color: #eae9e5;
 }
 
 .social-media #social-item:hover{
