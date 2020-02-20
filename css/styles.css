@@ -289,8 +289,9 @@ h5{
 }
 
 .footer .footer-content .footer-section img:hover{
-    background-color: white;
+    background-color: orange;
     opacity:0.9;
+    border-radius: 50%;
 
 }
 
