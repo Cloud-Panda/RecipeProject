@@ -133,7 +133,7 @@
     margin-top: -50px;
     padding: 150px 30px;
     padding-bottom: 180px;
-    background-color: rgb(238, 174, 79);
+    background-color: rgb(245, 161, 51);
 }
 
 .ingredients-method {
@@ -163,7 +163,7 @@ h4{
     /* margin-left:10px; */
     /* margin-right:0; */
     /* padding-right:0; */
-    background-color:rgb(238, 174, 79);
+    background-color:rgb(245, 161, 51);
     /* width:72.5%; */
     align-content: center;
     display:inline-block;
@@ -235,11 +235,19 @@ h3{
     /* padding-left:55px; */
     width: fit-content;
     margin: 0 auto;
-    background-color:#eae9e5;
+    background-color:#eae9e5);
     align-content:center;
     color:rgb(3, 3, 3);
     text-align:center;
     overflow-x: auto;
+    border-radius: 7px;
+}
+
+.nutrition-container{
+    background-color:#eae9e5;
+    margin-top:50px;
+    width:100%;
+    
 }
 
 h5{
@@ -284,8 +292,9 @@ h5{
 }
 
 .footer .footer-content .footer-section img{
-    height:50%;
-    width:50%;
+    height:25%;
+    width:25%;
+   margin-top:50px;
 }
 
 .footer .footer-content .footer-section img:hover{
