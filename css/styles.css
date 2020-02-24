@@ -235,12 +235,14 @@ h3{
     /* padding-left:55px; */
     width: fit-content;
     margin: 0 auto;
-    background-color:#eae9e5);
+    background-color:#eae9e5;
     align-content:center;
     color:rgb(3, 3, 3);
     text-align:center;
     overflow-x: auto;
     border-radius: 7px;
+    margin-top:20px;
+    padding-bottom:30px;
 }
 
 .nutrition-container{
@@ -248,11 +250,13 @@ h3{
     margin-top:50px;
     width:100%;
     
+    
 }
 
-h5{
+h1{
     text-align:center;
     font-size:30px;
+    padding-top:20px;
 }
 
 .footer{
@@ -293,14 +297,14 @@ h5{
 
 .footer .footer-content .footer-section img{
     height:25%;
-    width:25%;
+    width:30%;
    margin-top:50px;
 }
 
 .footer .footer-content .footer-section img:hover{
     background-color: orange;
     opacity:0.9;
-    border-radius: 50%;
+    border-radius: 100%;
 
 }
 
